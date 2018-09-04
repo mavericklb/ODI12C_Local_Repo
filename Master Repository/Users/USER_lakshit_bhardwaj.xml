@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SunopsisExport>
+<Admin RepositoryVersion="05.02.02.05" IsLegacyIdCompatible="false" />
+<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="gX4p6hDj4R/tTDSSD+EMfg==" exportKeySalt="fbb7a529-8f74-49b2-8974-e76a13f7620d" containsCipherText="false"/>
+<Object class="com.sunopsis.dwg.dbobj.SnpUser">
+		<Field name="AutSupervisor" type="java.lang.String"><![CDATA[1]]></Field>
+	<Field name="ExpiracyDate" type="java.sql.Timestamp">null</Field>
+	<Field name="ExtVersion" type="java.lang.String">null</Field>
+	<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2018-09-04 11:41:40.0]]></Field>
+	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[b1ae2c34-ffc8-4250-8683-46eafc64945f]]></Field>
+	<Field name="GuidExternal" type="java.lang.String">null</Field>
+	<Field name="IndChange" type="java.lang.String">null</Field>
+	<Field name="IndRole" type="java.lang.String"><![CDATA[0]]></Field>
+	<Field name="ITxtDetail" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="IWuser" type="com.sunopsis.sql.DbInt"><![CDATA[5]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-09-04 11:42:11.0]]></Field>
+	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
+	<Field name="Pass" type="java.lang.String">null</Field>
+	<Field name="UserCommunity" type="java.lang.String"><![CDATA[ODI]]></Field>
+	<Field name="UserExpiracyDate" type="java.sql.Timestamp">null</Field>
+	<Field name="WuserInit" type="java.lang.String">null</Field>
+	<Field name="WuserName" type="java.lang.String"><![CDATA[lakshit.bhardwaj]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpUsrPreference">
+		<Field name="GlobalId" type="java.lang.String"><![CDATA[686ba4b6-3a88-4fd3-8ab3-0fa5919ad706]]></Field>
+	<Field name="IWuser" type="com.sunopsis.sql.DbInt"><![CDATA[5]]></Field>
+	<Field name="PrefKey" type="java.lang.String"><![CDATA[EXPORT_KEY]]></Field>
+	<Field name="PrefValue" type="java.lang.String">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
+		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_USER.5]]></Field>
+	<Field name="RefObjGlobalId" type="java.lang.String"><![CDATA[b1ae2c34-ffc8-4250-8683-46eafc64945f]]></Field>
+ <Field name="RefObjFQName" type="java.lang.String"><![CDATA[lakshit.bhardwaj]]></Field>
+ <Field name="RefObjFQType" type="java.lang.String"><![CDATA[SNP_USER]]></Field>
+ <Field name="RefObjFQNameLengths" type="java.lang.String"><![CDATA[16]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.DwgExportSummary">
+		<Field name="ExpTxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="InstObjNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="JoinColNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="JoinNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="KeyColNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="KeyNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="LinkDiagNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="MorigTxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="MtxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="OrigTxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="OtherObjectsNb" type="com.sunopsis.sql.DbInt"><![CDATA[2]]></Field>
+	<Field name="PlanAgentNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="StepNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="TxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="UeOrigNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="UeUsedNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="VarPlanAgentNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="ScenTxtNb" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="OdiVersion" type="java.lang.String"><![CDATA[12.2.1]]></Field>
+	<Field name="OriginRepositoryID" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
+	<Field name="RepositoryVersion" type="java.lang.String"><![CDATA[05.02.02.05]]></Field>
+</Object>
+</SunopsisExport>
